@@ -1,0 +1,3 @@
+[console_scripts]
+zm = zm.cmd.cli:main
+

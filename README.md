@@ -1,0 +1,1 @@
+This repository contains official source code of Server Side Implementation of Holographic Assistant described in paper [3D Holographic and Interactive Artificial Intelligence System ](https://ieeexplore.ieee.org/document/8987926)

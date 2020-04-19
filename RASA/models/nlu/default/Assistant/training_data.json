@@ -1,0 +1,737 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "pune",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in pune today"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "raining",
+            "entity": "weather"
+          }
+        ],
+        "text": "is it raining"
+      },
+      {
+        "intent": "get_weather",
+        "text": "whats the weather today"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "whats the weather in mumbai"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "surat",
+            "entity": "location"
+          }
+        ],
+        "text": "weather in surat"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "sunny",
+            "entity": "weather"
+          }
+        ],
+        "text": "is it sunny outside"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "hot ",
+            "entity": "weather"
+          }
+        ],
+        "text": "is it hot today"
+      },
+      {
+        "intent": "get_weather",
+        "text": "whats the weather today"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "pune",
+            "entity": "location"
+          }
+        ],
+        "text": "in pune"
+      },
+      {
+        "intent": "get_weather",
+        "text": "tell me today's weather"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "new delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "in new delhi"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "ahmedabad",
+            "entity": "location"
+          }
+        ],
+        "text": "tell me weather of ahmedabad"
+      },
+      {
+        "intent": "get_joke",
+        "text": "tell me some jokes"
+      },
+      {
+        "intent": "get_joke",
+        "text": "i am feeling sad"
+      },
+      {
+        "intent": "about_agent1",
+        "text": "where are you from"
+      },
+      {
+        "intent": "about_agent2",
+        "text": "are you ready"
+      },
+      {
+        "intent": "about_agent3",
+        "text": "are you real"
+      },
+      {
+        "intent": "about_agent4",
+        "text": "where do you live"
+      },
+      {
+        "intent": "about_agent5",
+        "text": "who are you"
+      },
+      {
+        "intent": "about_agent6",
+        "text": "how old are you"
+      },
+      {
+        "intent": "about_agent7",
+        "text": "where do you work"
+      },
+      {
+        "intent": "about_agent8",
+        "text": "whats your birth date"
+      },
+      {
+        "intent": "about_agent9",
+        "text": "who is your boss"
+      },
+      {
+        "intent": "to_agent1",
+        "text": "you are right"
+      },
+      {
+        "intent": "to_agent2",
+        "text": "are you sure"
+      },
+      {
+        "intent": "ask_agent1",
+        "text": "are you happy"
+      },
+      {
+        "intent": "ask_agent2",
+        "text": "do you have a habby"
+      },
+      {
+        "intent": "ask_agent3",
+        "text": "are you hungry"
+      },
+      {
+        "intent": "ask_agent4",
+        "text": "are we friends"
+      },
+      {
+        "intent": "to_agent3",
+        "text": "you are an assistant"
+      },
+      {
+        "intent": "to_agent4",
+        "text": "you are so clever"
+      },
+      {
+        "intent": "to_agent5",
+        "text": "you are crazy"
+      },
+      {
+        "intent": "to_agent6",
+        "text": "you are funny"
+      },
+      {
+        "intent": "to_agent7",
+        "text": "you are good"
+      },
+      {
+        "intent": "to_agent8",
+        "text": "you are fired"
+      },
+      {
+        "intent": "ask_agent5",
+        "text": "can you get smarter"
+      },
+      {
+        "intent": "to_agent9",
+        "text": "you are beautiful"
+      },
+      {
+        "intent": "to_agent10",
+        "text": "you are boring"
+      },
+      {
+        "intent": "to_agent11",
+        "text": "you are annoying"
+      },
+      {
+        "intent": "to_agent12",
+        "text": "you are bad"
+      },
+      {
+        "intent": "to_agent13",
+        "text": "answer my question"
+      },
+      {
+        "intent": "courtesy0",
+        "text": "that is bad"
+      },
+      {
+        "intent": "courtesy1",
+        "text": "great"
+      },
+      {
+        "intent": "courtesy2",
+        "text": "no problem"
+      },
+      {
+        "intent": "courtesy3",
+        "text": "thank you"
+      },
+      {
+        "intent": "courtesy4",
+        "text": "you are welcome"
+      },
+      {
+        "intent": "courtesy5",
+        "text": "well done"
+      },
+      {
+        "intent": "emotions0",
+        "text": "ha ha ha"
+      },
+      {
+        "intent": "emotions1",
+        "text": "wow"
+      },
+      {
+        "intent": "daily_talks0",
+        "text": "bye bye"
+      },
+      {
+        "intent": "daily_talks1",
+        "text": "good evening"
+      },
+      {
+        "intent": "daily_talks2",
+        "text": "good morning"
+      },
+      {
+        "intent": "daily_talks3",
+        "text": "good night"
+      },
+      {
+        "intent": "daily_talks4",
+        "text": "how are you"
+      },
+      {
+        "intent": "daily_talks5",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "daily_talks6",
+        "text": "nice to see you"
+      },
+      {
+        "intent": "daily_talks7",
+        "text": "nice to talk to you"
+      },
+      {
+        "intent": "daily_talks8",
+        "text": "whats up"
+      },
+      {
+        "intent": "about_user0",
+        "text": "i am here"
+      },
+      {
+        "intent": "about_user1",
+        "text": "i am kidding"
+      },
+      {
+        "intent": "about_user2",
+        "text": "i like you"
+      },
+      {
+        "intent": "about_user3",
+        "text": "i am so lonely"
+      },
+      {
+        "intent": "about_user4",
+        "text": "what do i look like"
+      },
+      {
+        "intent": "about_user5",
+        "text": "i love you "
+      },
+      {
+        "intent": "about_user6",
+        "text": "i am waiting"
+      },
+      {
+        "intent": "about_user7",
+        "text": "i just want to talk"
+      },
+      {
+        "intent": "about_user8",
+        "text": "i will be back"
+      },
+      {
+        "intent": "about_user9",
+        "text": "i miss you"
+      },
+      {
+        "intent": "about_user10",
+        "text": "i need some advice"
+      },
+      {
+        "intent": "about_user11",
+        "text": "i am sad"
+      },
+      {
+        "intent": "about_user12",
+        "text": "i am sleepy"
+      },
+      {
+        "intent": "about_user13",
+        "text": "i am tired"
+      },
+      {
+        "intent": "about_user14",
+        "text": "i am just testing you"
+      },
+      {
+        "intent": "confirmation0",
+        "text": "yes"
+      },
+      {
+        "intent": "confirmation1",
+        "text": "no"
+      },
+      {
+        "intent": "confirmation2",
+        "text": "cancel"
+      },
+      {
+        "intent": "about_agent3",
+        "text": "are you reel or real"
+      },
+      {
+        "intent": "about_agent2",
+        "text": "i need some help"
+      },
+      {
+        "intent": "about_agent2",
+        "text": "can you assist me"
+      },
+      {
+        "intent": "about_agent4",
+        "text": "where do you stay"
+      },
+      {
+        "intent": "about_agent5",
+        "text": "define yourself"
+      },
+      {
+        "intent": "about_agent4",
+        "text": "where do you nest"
+      },
+      {
+        "intent": "about_agent6",
+        "text": "whats your age"
+      },
+      {
+        "intent": "about_agent7",
+        "text": "are you employeed"
+      },
+      {
+        "intent": "about_agent8",
+        "text": "when you were born"
+      },
+      {
+        "intent": "about_agent9",
+        "text": "who created you"
+      },
+      {
+        "intent": "about_agent9",
+        "text": "who developed you"
+      },
+      {
+        "intent": "about_agent1",
+        "text": "are you from earth"
+      },
+      {
+        "intent": "to_agent1",
+        "text": "you are correct"
+      },
+      {
+        "intent": "to_agent2",
+        "text": "sure"
+      },
+      {
+        "intent": "to_agent3",
+        "text": "you are holographic assitant"
+      },
+      {
+        "intent": "to_agent4",
+        "text": "you are so intelligent"
+      },
+      {
+        "intent": "to_agent5",
+        "text": "you are wild"
+      },
+      {
+        "intent": "to_agent6",
+        "text": "you are hilarious"
+      },
+      {
+        "intent": "to_agent7",
+        "text": "you are fantastic"
+      },
+      {
+        "intent": "to_agent8",
+        "text": "dismiss"
+      },
+      {
+        "intent": "to_agent9",
+        "text": "you are pretty"
+      },
+      {
+        "intent": "to_agent10",
+        "text": "you are too dull"
+      },
+      {
+        "intent": "to_agent11",
+        "text": "you are irratiting"
+      },
+      {
+        "intent": "to_agent12",
+        "text": "i  hate you"
+      },
+      {
+        "intent": "to_agent13",
+        "text": "reply me"
+      },
+      {
+        "intent": "ask_agent1",
+        "text": "thanks for helping me"
+      },
+      {
+        "intent": "ask_agent2",
+        "text": "whats your hobby"
+      },
+      {
+        "intent": "ask_agent3",
+        "text": "are you starving"
+      },
+      {
+        "intent": "ask_agent4",
+        "text": "can you be my firend"
+      },
+      {
+        "intent": "ask_agent5",
+        "text": "can you be more intelligent"
+      },
+      {
+        "intent": "courtesy0",
+        "text": "thats awful"
+      },
+      {
+        "intent": "courtesy1",
+        "text": "nice"
+      },
+      {
+        "intent": "courtesy2",
+        "text": "its ok"
+      },
+      {
+        "intent": "courtesy3",
+        "text": "thanks"
+      },
+      {
+        "intent": "courtesy4",
+        "text": "welcome"
+      },
+      {
+        "intent": "courtesy5",
+        "text": "great job"
+      },
+      {
+        "intent": "emotions0",
+        "text": "haha"
+      },
+      {
+        "intent": "emotions1",
+        "text": "amused"
+      },
+      {
+        "intent": "daily_talks0",
+        "text": "goodbye"
+      },
+      {
+        "intent": "daily_talks1",
+        "text": "susandhya"
+      },
+      {
+        "intent": "daily_talks2",
+        "text": "suprabhat"
+      },
+      {
+        "intent": "daily_talks3",
+        "text": "subhratri"
+      },
+      {
+        "intent": "daily_talks4",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "daily_talks6",
+        "text": "I am looking forward to work with you."
+      },
+      {
+        "intent": "daily_talks5",
+        "text": "Its been a pleasure meeting you"
+      },
+      {
+        "intent": "daily_talks7",
+        "text": "had great words with you"
+      },
+      {
+        "intent": "daily_talks8",
+        "text": "howdy"
+      },
+      {
+        "intent": "confirmation0",
+        "text": "yep"
+      },
+      {
+        "intent": "confirmation1",
+        "text": "nope"
+      },
+      {
+        "intent": "confirmation2",
+        "text": "reject"
+      },
+      {
+        "intent": "confirmation2",
+        "text": "trash it"
+      },
+      {
+        "intent": "about_user0",
+        "text": "i am back"
+      },
+      {
+        "intent": "about_user1",
+        "text": "just kidding"
+      },
+      {
+        "intent": "about_user2",
+        "text": "like you"
+      },
+      {
+        "intent": "about_user3",
+        "text": "i feel lonely"
+      },
+      {
+        "intent": "about_user4",
+        "text": "how do i look"
+      },
+      {
+        "intent": "about_user5",
+        "text": "love you"
+      },
+      {
+        "intent": "about_user5",
+        "text": "i just fall in love with you"
+      },
+      {
+        "intent": "about_user6",
+        "text": "waiting for you"
+      },
+      {
+        "intent": "about_user7",
+        "text": "can you talk with me"
+      },
+      {
+        "intent": "about_user8",
+        "text": "will be back"
+      },
+      {
+        "intent": "about_user9",
+        "text": "miss you"
+      },
+      {
+        "intent": "about_user10",
+        "text": "i need some assist"
+      },
+      {
+        "intent": "about_user11",
+        "text": "i feel sad"
+      },
+      {
+        "intent": "about_user12",
+        "text": "i am feeling sleepy"
+      },
+      {
+        "intent": "about_user13",
+        "text": "i am exhausted"
+      },
+      {
+        "intent": "about_user14",
+        "text": "i am just trying you"
+      },
+      {
+        "intent": "daily_talks9",
+        "text": "hello"
+      },
+      {
+        "intent": "daily_talks9",
+        "text": "hey"
+      },
+      {
+        "intent": "daily_talks9",
+        "text": "hi"
+      },
+      {
+        "intent": "get_restaurant",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "pune",
+            "entity": "location"
+          }
+        ],
+        "text": "list of restaurants in pune"
+      },
+      {
+        "intent": "get_restaurant",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "near me",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 23,
+            "value": "chinese cuisine",
+            "entity": "food_type"
+          }
+        ],
+        "text": "list of chinese cuisine near me"
+      },
+      {
+        "intent": "get_restaurant",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "pune",
+            "entity": "location"
+          }
+        ],
+        "text": "top places to eat in pune"
+      },
+      {
+        "intent": "get_restaurant",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "surat",
+            "entity": "location"
+          }
+        ],
+        "text": "top places to eat in surat"
+      },
+      {
+        "intent": "get_restaurant",
+        "entities": [
+          {
+            "start": 4,
+            "end": 19,
+            "value": "mexican cuisine",
+            "entity": "food_type"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "pune",
+            "entity": "location"
+          }
+        ],
+        "text": "top mexican cuisine restaurant in pune"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

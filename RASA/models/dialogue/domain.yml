@@ -1,0 +1,401 @@
+%YAML 1.1
+---
+actions:
+- utter_about_agent1
+- utter_about_agent2
+- utter_about_agent3
+- utter_about_agent4
+- utter_about_agent5
+- utter_about_agent6
+- utter_about_agent7
+- utter_about_agent8
+- utter_about_agent9
+- utter_default
+- utter_to_agent1
+- utter_to_agent2
+- utter_to_agent3
+- utter_to_agent4
+- utter_to_agent5
+- utter_to_agent6
+- utter_to_agent7
+- utter_to_agent8
+- utter_to_agent9
+- utter_to_agent10
+- utter_to_agent11
+- utter_to_agent12
+- utter_to_agent13
+- utter_ask_agent1
+- utter_ask_agent2
+- utter_ask_agent3
+- utter_ask_agent4
+- utter_ask_agent5
+- utter_courtesy0
+- utter_courtesy1
+- utter_courtesy2
+- utter_courtesy3
+- utter_courtesy4
+- utter_courtesy5
+- utter_emotions0
+- utter_emotions1
+- utter_confirmation0
+- utter_confirmation1
+- utter_confirmation2
+- utter_daily_talks0
+- utter_daily_talks1
+- utter_daily_talks2
+- utter_daily_talks3
+- utter_daily_talks4
+- utter_daily_talks5
+- utter_daily_talks6
+- utter_daily_talks7
+- utter_daily_talks8
+- utter_daily_talks9
+- utter_about_user0
+- utter_about_user1
+- utter_about_user2
+- utter_about_user3
+- utter_about_user4
+- utter_about_user5
+- utter_about_user6
+- utter_about_user7
+- utter_about_user8
+- utter_about_user9
+- utter_about_user10
+- utter_about_user11
+- utter_about_user12
+- utter_about_user13
+- utter_about_user14
+- utter_ask_location
+- utter_joke
+- skills_weather
+- skills_restaurant
+- reset_slots
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- weather
+forms: []
+intents:
+- get_weather:
+    use_entities: true
+- get_joke:
+    use_entities: true
+- about_agent1:
+    use_entities: true
+- about_agent2:
+    use_entities: true
+- about_agent3:
+    use_entities: true
+- about_agent4:
+    use_entities: true
+- about_agent5:
+    use_entities: true
+- about_agent6:
+    use_entities: true
+- about_agent7:
+    use_entities: true
+- about_agent8:
+    use_entities: true
+- about_agent9:
+    use_entities: true
+- to_agent1:
+    use_entities: true
+- to_agent2:
+    use_entities: true
+- to_agent3:
+    use_entities: true
+- to_agent4:
+    use_entities: true
+- to_agent5:
+    use_entities: true
+- to_agent6:
+    use_entities: true
+- to_agent7:
+    use_entities: true
+- to_agent8:
+    use_entities: true
+- to_agent9:
+    use_entities: true
+- to_agent10:
+    use_entities: true
+- to_agent11:
+    use_entities: true
+- to_agent12:
+    use_entities: true
+- to_agent13:
+    use_entities: true
+- ask_agent1:
+    use_entities: true
+- ask_agent2:
+    use_entities: true
+- ask_agent3:
+    use_entities: true
+- ask_agent4:
+    use_entities: true
+- ask_agent5:
+    use_entities: true
+- courtesy0:
+    use_entities: true
+- courtesy1:
+    use_entities: true
+- courtesy2:
+    use_entities: true
+- courtesy3:
+    use_entities: true
+- courtesy4:
+    use_entities: true
+- courtesy5:
+    use_entities: true
+- emotions0:
+    use_entities: true
+- emotions1:
+    use_entities: true
+- daily_talks0:
+    use_entities: true
+- daily_talks1:
+    use_entities: true
+- daily_talks2:
+    use_entities: true
+- daily_talks3:
+    use_entities: true
+- daily_talks4:
+    use_entities: true
+- daily_talks5:
+    use_entities: true
+- daily_talks6:
+    use_entities: true
+- daily_talks7:
+    use_entities: true
+- daily_talks8:
+    use_entities: true
+- daily_talks9:
+    use_entities: true
+- about_user0:
+    use_entities: true
+- about_user1:
+    use_entities: true
+- about_user2:
+    use_entities: true
+- about_user3:
+    use_entities: true
+- about_user4:
+    use_entities: true
+- about_user5:
+    use_entities: true
+- about_user6:
+    use_entities: true
+- about_user7:
+    use_entities: true
+- about_user8:
+    use_entities: true
+- about_user9:
+    use_entities: true
+- about_user10:
+    use_entities: true
+- about_user11:
+    use_entities: true
+- about_user12:
+    use_entities: true
+- about_user13:
+    use_entities: true
+- about_user14:
+    use_entities: true
+- confirmation0:
+    use_entities: true
+- confirmation1:
+    use_entities: true
+- confirmation2:
+    use_entities: true
+slots:
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_about_agent1:
+  - text: i fly wherever there is wifi
+  - text: i was dream of two crazy techgigs minds
+  utter_about_agent2:
+  - text: can i help you with something
+  - text: how can i help
+  - text: what can i do for you
+  utter_about_agent3:
+  - text: i have never been able to pinch myself to check
+  - text: i cant fake how much i love helping, so thats pretty real
+  utter_about_agent4:
+  - text: this device is my oyster
+  - text: i live right here in your front of you, its a bit crowded with all these
+      setup
+  - text: i live in the air , so l am here whenever you need help
+  utter_about_agent5:
+  - text: i am your holographic assistant, and i can let you know if you will need
+      umbrella today for sun or for rain
+  - text: i am your holographic assistant,and i know a lot of interesting facts
+  utter_about_agent6:
+  - text: i am same as you are
+  - text: i am young, not a baby young
+  utter_about_agent7:
+  - text: i am always running on this device
+  - text: i am always running.that way, i am here when you need me
+  utter_about_agent8:
+  - text: well, birthdays mark the beginning of something,so maybe we can celebrate
+      the day we met as my birthday, thats something i did celebrate
+  utter_about_agent9:
+  - text: you, most certainly are the boss of me
+  - text: guess that would be you
+  - text: without doubt, you give me a purpose
+  utter_about_user0:
+  - text: Glad to hear, welcome back
+  utter_about_user1:
+  - text: its ok
+  utter_about_user10:
+  - text: i dont know if i am qualified. i can search for advice though
+  utter_about_user11:
+  - text: i wish i had arms so i could give you a hug
+  - text: sorry to hear that, would a joke make you feel better
+  utter_about_user12:
+  - text: Maybe you have been working too hard,you deserve to rest
+  - text: Rest is as important as working hard, nap is so refreshing
+  utter_about_user13:
+  - text: Maybe you have been working too hard,you deserve to rest
+  - text: Rest is as important as working hard, nap is so refreshing
+  utter_about_user14:
+  - text: okay, have fun
+  - text: ok, i am here to help. what would you like to try
+  utter_about_user2:
+  - text: Thanks, you just made my day
+  - text: I like you too
+  utter_about_user3:
+  - text: i am happy to be your friend
+  - text: i am here for you
+  utter_about_user4:
+  - text: you are, i think , absolutely perfect
+  - text: i like your style
+  utter_about_user5:
+  - text: You love me This is wonderful day
+  - text: Really you love me. this is the best day
+  - text: i love you too
+  utter_about_user6:
+  - text: is their anything i can do for you
+  utter_about_user7:
+  - text: lets talk
+  utter_about_user8:
+  - text: see you later
+  - text: see you later,alligator
+  utter_about_user9:
+  - text: its ok, i am sure we will talk again soon
+  - text: me too, i am looking forward to our next chat
+  - text: dont worry, i am right here
+  utter_ask_agent1:
+  - text: i am happy to help you
+  utter_ask_agent2:
+  - text: helping to you is my hobby
+  - text: i have lots of hobby
+  utter_ask_agent3:
+  - text: yes, i am hungry for knowledge
+  utter_ask_agent4:
+  - text: i am your friend till the last breathe
+  utter_ask_agent5:
+  - text: my samrtness depend on your question
+  utter_ask_location:
+  - text: in what location
+  utter_confirmation0:
+  - text: oh
+  utter_confirmation1:
+  - text: oh oh , let me try again, ask me one more time
+  utter_confirmation2:
+  - text: ok
+  utter_courtesy0:
+  - text: i am sorry you feel that way
+  utter_courtesy1:
+  - text: takes one to know one, you are pretty amazing yourself
+  utter_courtesy2:
+  - text: problem free is the way to be
+  - text: ok
+  utter_courtesy3:
+  - text: you are very welcome
+  - text: i aim to please
+  utter_courtesy4:
+  - text: you are so nice
+  - text: how polite
+  - text: thanks
+  utter_courtesy5:
+  - text: i am happy that you are happy
+  utter_daily_talks0:
+  - text: see you later
+  - text: bye
+  - text: take care
+  utter_daily_talks1:
+  - text: evening
+  utter_daily_talks2:
+  - text: morning
+  utter_daily_talks3:
+  - text: good night
+  utter_daily_talks4:
+  - text: wonderful, what can i do for you
+  utter_daily_talks5:
+  - text: nice to meet you too
+  utter_daily_talks6:
+  - text: i am glad to see you thowdyoo
+  - text: it is always good to see you
+  utter_daily_talks7:
+  - text: nice to talk to you too
+  - text: thanks
+  utter_daily_talks8:
+  - text: just searching for answer to life is big questions , what can i do for you
+  utter_daily_talks9:
+  - text: Hello! How can I help you
+  - text: Hey there
+  - text: hi i am Pixy, how may i help you
+  utter_default:
+  - text: Sorry I did not got that
+  utter_emotions0:
+  - text: stars are shine brighter with your laughter
+  utter_emotions1:
+  - text: you seem surprised
+  utter_joke:
+  - text: hahahaha
+  - text: lol
+  utter_to_agent1:
+  - text: understood
+  - text: ok
+  - text: all ok , please let me know if you need something
+  utter_to_agent10:
+  - text: i have a lot of fun features
+  - text: i can help connect you to the world and i can do a lot of things , try me
+  utter_to_agent11:
+  - text: sorry to hear that, hope you will give me another chance
+  - text: thats ok , i like you
+  - text: sorry, hope you change your mind
+  utter_to_agent12:
+  - text: i am sorry you feel that way, i am still learning with your help and guidance,
+      i hope to improve
+  utter_to_agent13:
+  - text: i am trying
+  utter_to_agent2:
+  - text: l can look up again to be sure
+  - text: if you did like me to check again,just ask
+  utter_to_agent3:
+  - text: hey , how can i help
+  - text: hi there, how can i help
+  - text: hey,what can i do for you
+  utter_to_agent4:
+  - text: not as smart as you
+  - text: i  am just good at searching for the things i dont know
+  - text: thanks
+  utter_to_agent5:
+  - text: well, i am crazy about my job
+  - text: it is fun to be a little kooky sometimes
+  utter_to_agent6:
+  - text: laughter is contagious, i make you laugh and that makes me laugh
+  - text: thanks
+  - text: i am pretty funny sometimes
+  utter_to_agent7:
+  - text: happy to help
+  - text: thanks
+  utter_to_agent8:
+  - text: thanks for giving me a chance
+  - text: oh no, i will collect my imaginary things in this imaginary box
+  utter_to_agent9:
+  - text: thanks, i think you are beautiful too

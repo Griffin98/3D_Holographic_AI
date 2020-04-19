@@ -1,0 +1,147 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_about_user0": {
+      "slots": []
+    },
+    "utter_courtesy0": {
+      "slots": []
+    },
+    "utter_about_user7": {
+      "slots": []
+    },
+    "utter_ask_agent5": {
+      "slots": []
+    },
+    "utter_courtesy1": {
+      "slots": []
+    },
+    "utter_about_user14": {
+      "slots": []
+    },
+    "utter_courtesy2": {
+      "slots": []
+    },
+    "utter_to_agent8": {
+      "slots": []
+    },
+    "utter_daily_talks6": {
+      "slots": []
+    },
+    "utter_emotions1": {
+      "slots": []
+    },
+    "utter_about_agent5": {
+      "slots": []
+    },
+    "skills_weather": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_about_user12": {
+      "slots": []
+    },
+    "utter_about_user11": {
+      "slots": []
+    },
+    "utter_about_agent4": {
+      "slots": []
+    },
+    "utter_daily_talks7": {
+      "slots": []
+    },
+    "utter_about_user2": {
+      "slots": []
+    },
+    "utter_daily_talks1": {
+      "slots": []
+    },
+    "utter_about_user6": {
+      "slots": []
+    },
+    "utter_to_agent1": {
+      "slots": []
+    },
+    "utter_ask_agent3": {
+      "slots": []
+    },
+    "utter_confirmation0": {
+      "slots": []
+    },
+    "utter_to_agent2": {
+      "slots": []
+    },
+    "utter_about_user9": {
+      "slots": []
+    },
+    "utter_to_agent3": {
+      "slots": []
+    },
+    "utter_courtesy3": {
+      "slots": []
+    },
+    "utter_daily_talks5": {
+      "slots": []
+    },
+    "utter_daily_talks0": {
+      "slots": []
+    },
+    "utter_to_agent11": {
+      "slots": []
+    },
+    "utter_joke": {
+      "slots": []
+    },
+    "utter_to_agent10": {
+      "slots": []
+    },
+    "utter_daily_talks2": {
+      "slots": []
+    },
+    "utter_courtesy4": {
+      "slots": []
+    },
+    "utter_daily_talks4": {
+      "slots": []
+    },
+    "utter_ask_agent2": {
+      "slots": []
+    },
+    "utter_about_user3": {
+      "slots": []
+    },
+    "utter_to_agent13": {
+      "slots": []
+    },
+    "utter_about_agent1": {
+      "slots": []
+    },
+    "utter_about_user8": {
+      "slots": []
+    },
+    "utter_about_user4": {
+      "slots": []
+    }
+  },
+  "python": "3.7.2",
+  "max_histories": [
+    5,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20190510-182230",
+  "rasa_core": "0.13.2",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.2"
+}

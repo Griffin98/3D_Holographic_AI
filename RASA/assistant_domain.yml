@@ -1,0 +1,394 @@
+slots:
+  location:
+    type: text
+
+intents:
+  - get_weather
+  - get_joke
+  - about_agent1
+  - about_agent2
+  - about_agent3
+  - about_agent4
+  - about_agent5
+  - about_agent6
+  - about_agent7
+  - about_agent8
+  - about_agent9
+  - to_agent1
+  - to_agent2
+  - to_agent3
+  - to_agent4
+  - to_agent5
+  - to_agent6
+  - to_agent7
+  - to_agent8
+  - to_agent9
+  - to_agent10
+  - to_agent11
+  - to_agent12
+  - to_agent13
+  - ask_agent1
+  - ask_agent2
+  - ask_agent3
+  - ask_agent4
+  - ask_agent5
+  - courtesy0
+  - courtesy1
+  - courtesy2
+  - courtesy3
+  - courtesy4
+  - courtesy5
+  - emotions0
+  - emotions1
+  - daily_talks0
+  - daily_talks1
+  - daily_talks2
+  - daily_talks3
+  - daily_talks4
+  - daily_talks5
+  - daily_talks6
+  - daily_talks7
+  - daily_talks8
+  - daily_talks9
+  - about_user0
+  - about_user1
+  - about_user2
+  - about_user3
+  - about_user4
+  - about_user5
+  - about_user6
+  - about_user7
+  - about_user8
+  - about_user9
+  - about_user10
+  - about_user11
+  - about_user12
+  - about_user13
+  - about_user14
+  - confirmation0
+  - confirmation1
+  - confirmation2
+
+entities:
+  - location
+  - weather
+
+templates:
+  utter_ask_location:
+    - 'in what location'
+
+  utter_joke:
+    - 'hahahaha'
+    - 'lol'
+
+  utter_about_agent1:
+    - 'i fly wherever there is wifi'
+    - 'i was dream of two crazy techgigs minds'
+
+  utter_about_agent2:
+    - 'can i help you with something'
+    - 'how can i help'
+    - 'what can i do for you'
+
+  utter_about_agent3:
+    - 'i have never been able to pinch myself to check'
+    - 'i cant fake how much i love helping, so thats pretty real'
+
+  utter_about_agent4:
+    - 'this device is my oyster'
+    - 'i live right here in your front of you, its a bit crowded with all these setup'
+    - 'i live in the air , so l am here whenever you need help'
+
+  utter_about_agent5:
+    - 'i am your holographic assistant, and i can let you know if you will need umbrella today for sun or for rain'
+    - 'i am your holographic assistant,and i know a lot of interesting facts'
+
+  utter_about_agent6:
+    - 'i am same as you are'
+    - 'i am young, not a baby young'
+
+  utter_about_agent7:
+    - 'i am always running on this device'
+    - 'i am always running.that way, i am here when you need me'
+
+  utter_about_agent8:
+    - 'well, birthdays mark the beginning of something,so maybe we can celebrate the day we met as my birthday, thats something i did celebrate'
+
+  utter_about_agent9:
+    - 'you, most certainly are the boss of me'
+    - 'guess that would be you'
+    - 'without doubt, you give me a purpose'
+
+  utter_to_agent1:
+    - 'understood'
+    - 'ok'
+    - 'all ok , please let me know if you need something'
+
+  utter_to_agent2:
+    - 'l can look up again to be sure'
+    - 'if you did like me to check again,just ask'
+
+  utter_to_agent3:
+    - 'hey , how can i help'
+    - 'hi there, how can i help'
+    - 'hey,what can i do for you'
+
+  utter_to_agent4:
+    - 'not as smart as you'
+    - 'i  am just good at searching for the things i dont know'
+    - 'thanks'
+
+  utter_to_agent5:
+    - 'well, i am crazy about my job'
+    - 'it is fun to be a little kooky sometimes'
+
+  utter_to_agent6:
+    - 'laughter is contagious, i make you laugh and that makes me laugh'
+    - 'thanks'
+    - 'i am pretty funny sometimes'
+
+  utter_to_agent7:
+    - 'happy to help'
+    - 'thanks'
+
+  utter_to_agent8:
+    - 'thanks for giving me a chance'
+    - 'oh no, i will collect my imaginary things in this imaginary box'
+
+  utter_to_agent9:
+    - 'thanks, i think you are beautiful too'
+
+  utter_to_agent10:
+    - 'i have a lot of fun features'
+    - 'i can help connect you to the world and i can do a lot of things , try me'
+
+  utter_to_agent11:
+    - 'sorry to hear that, hope you will give me another chance'
+    - 'thats ok , i like you'
+    - 'sorry, hope you change your mind'
+
+  utter_to_agent12:
+    - 'i am sorry you feel that way, i am still learning with your help and guidance, i hope to improve'
+
+  utter_to_agent13:
+    - 'i am trying'
+
+  utter_ask_agent1:
+    - 'i am happy to help you'
+
+  utter_ask_agent2:
+    - 'helping to you is my hobby'
+    - 'i have lots of hobby'
+
+  utter_ask_agent3:
+    - 'yes, i am hungry for knowledge'
+
+  utter_ask_agent4:
+    - 'i am your friend till the last breathe'
+
+  utter_ask_agent5:
+    - 'my samrtness depend on your question'
+
+  utter_courtesy0:
+    - 'i am sorry you feel that way'
+
+  utter_courtesy1:
+    - 'takes one to know one, you are pretty amazing yourself'
+
+  utter_courtesy2:
+    - 'problem free is the way to be'
+    - 'ok'
+
+  utter_courtesy3:
+    - 'you are very welcome'
+    - 'i aim to please'
+
+  utter_courtesy4:
+    - 'you are so nice'
+    - 'how polite'
+    - 'thanks'
+
+  utter_courtesy5:
+    - 'i am happy that you are happy'
+
+  utter_emotions0:
+    - 'stars are shine brighter with your laughter'
+
+  utter_emotions1:
+    - 'you seem surprised'
+
+  utter_confirmation0:
+    - 'oh'
+
+  utter_confirmation1:
+    - 'oh oh , let me try again, ask me one more time'
+
+  utter_confirmation2:
+    - 'ok'
+
+  utter_daily_talks0:
+    - 'see you later'
+    - 'bye'
+    - 'take care'
+
+  utter_daily_talks1:
+    - 'evening'
+
+  utter_daily_talks2:
+    - 'morning'
+
+  utter_daily_talks3:
+    - 'good night'
+
+  utter_daily_talks4:
+    - 'wonderful, what can i do for you'
+
+  utter_daily_talks5:
+    - 'nice to meet you too'
+
+  utter_daily_talks6:
+    - 'i am glad to see you thowdyoo'
+    - 'it is always good to see you'
+
+  utter_daily_talks7:
+    - 'nice to talk to you too'
+    - 'thanks'
+
+  utter_daily_talks8:
+    - 'just searching for answer to life is big questions , what can i do for you'
+
+  utter_daily_talks9:
+    - 'Hello! How can I help you'
+    - 'Hey there'
+    - 'hi i am Pixy, how may i help you'
+
+  utter_about_user0:
+    - 'Glad to hear, welcome back'
+
+  utter_about_user1:
+    - 'its ok'
+
+  utter_about_user2:
+    - 'Thanks, you just made my day'
+    - 'I like you too'
+
+  utter_about_user3:
+    - 'i am happy to be your friend'
+    - 'i am here for you'
+
+  utter_about_user4:
+    - 'you are, i think , absolutely perfect'
+    - 'i like your style'
+
+  utter_about_user5:
+    - 'You love me This is wonderful day'
+    - 'Really you love me. this is the best day'
+    - 'i love you too'
+
+  utter_about_user6:
+    - 'is their anything i can do for you'
+
+  utter_about_user7:
+    - 'lets talk'
+
+  utter_about_user8:
+    - 'see you later'
+    - 'see you later,alligator'
+
+  utter_about_user9:
+    - 'its ok, i am sure we will talk again soon'
+    - 'me too, i am looking forward to our next chat'
+    - 'dont worry, i am right here'
+
+  utter_about_user10:
+    - 'i dont know if i am qualified. i can search for advice though'
+
+  utter_about_user11:
+    - 'i wish i had arms so i could give you a hug'
+    - 'sorry to hear that, would a joke make you feel better'
+
+  utter_about_user12:
+    - 'Maybe you have been working too hard,you deserve to rest'
+    - 'Rest is as important as working hard, nap is so refreshing'
+
+  utter_about_user13:
+    - 'Maybe you have been working too hard,you deserve to rest'
+    - 'Rest is as important as working hard, nap is so refreshing'
+
+  utter_about_user14:
+    - 'okay, have fun'
+    - 'ok, i am here to help. what would you like to try'
+
+  utter_default:
+    - 'Sorry I did not got that'
+
+actions:
+  - utter_about_agent1
+  - utter_about_agent2
+  - utter_about_agent3
+  - utter_about_agent4
+  - utter_about_agent5
+  - utter_about_agent6
+  - utter_about_agent7
+  - utter_about_agent8
+  - utter_about_agent9
+  - utter_default
+  - utter_to_agent1
+  - utter_to_agent2
+  - utter_to_agent3
+  - utter_to_agent4
+  - utter_to_agent5
+  - utter_to_agent6
+  - utter_to_agent7
+  - utter_to_agent8
+  - utter_to_agent9
+  - utter_to_agent10
+  - utter_to_agent11
+  - utter_to_agent12
+  - utter_to_agent13
+  - utter_ask_agent1
+  - utter_ask_agent2
+  - utter_ask_agent3
+  - utter_ask_agent4
+  - utter_ask_agent5
+  - utter_courtesy0
+  - utter_courtesy1
+  - utter_courtesy2
+  - utter_courtesy3
+  - utter_courtesy4
+  - utter_courtesy5
+  - utter_emotions0
+  - utter_emotions1
+  - utter_confirmation0
+  - utter_confirmation1
+  - utter_confirmation2
+  - utter_daily_talks0
+  - utter_daily_talks1
+  - utter_daily_talks2
+  - utter_daily_talks3
+  - utter_daily_talks4
+  - utter_daily_talks5
+  - utter_daily_talks6
+  - utter_daily_talks7
+  - utter_daily_talks8
+  - utter_daily_talks9
+  - utter_about_user0
+  - utter_about_user1
+  - utter_about_user2
+  - utter_about_user3
+  - utter_about_user4
+  - utter_about_user5
+  - utter_about_user6
+  - utter_about_user7
+  - utter_about_user8
+  - utter_about_user9
+  - utter_about_user10
+  - utter_about_user11
+  - utter_about_user12
+  - utter_about_user13
+  - utter_about_user14
+  - utter_ask_location
+  - utter_joke
+  - skills_weather
+  - skills_restaurant
+  - reset_slots

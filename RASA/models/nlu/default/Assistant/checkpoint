@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/dhyey98patel/Python/HVAServer/RASA/./models/nlu/default/Assistant/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/dhyey98patel/Python/HVAServer/RASA/./models/nlu/default/Assistant/intent_classifier_tensorflow_embedding.ckpt"
